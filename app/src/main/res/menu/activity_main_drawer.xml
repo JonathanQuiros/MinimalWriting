@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/notes" android:icon="@drawable/ic_inbox_black_24dp"
+            android:title="Notes" />
+        <item android:id="@+id/analytics" android:icon="@drawable/ic_details_black_24dp"
+            android:title="Analytics" />
+        <item android:id="@+id/archive" android:icon="@drawable/ic_archive_black_24dp"
+            android:title="Archive" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item android:id="@+id/settings" android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>
